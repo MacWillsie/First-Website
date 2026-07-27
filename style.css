@@ -36,10 +36,12 @@ body {
 
 article{
     flex:4;
+     background-color: rgb(220, 119, 119);
 }
 
 aside{
     flex: 1;
+    background-color: rgb(217, 152, 32);
 }
 
 main {
