@@ -17,15 +17,36 @@ nav a {
   font-size: 2rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: rgb(244, 195, 20);
 }
 
 nav a:hover,
 nav a:focus {
-  color: rgb(244, 195, 20);
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  background-color: rgb(220, 119, 119);
+  border-radius: 5px;
 }
 
-a:hover {
-  background-color: rgb(228, 188, 93);
-  font-size: 18px;
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+article{
+    flex:4;
+}
+
+aside{
+    flex: 1;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
 }
