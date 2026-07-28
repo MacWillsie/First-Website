@@ -105,7 +105,6 @@ width: 17%;
 .textt{
     font-size: 19.5px;
     text-indent: 33px;
-    text-align: center; 
 }
 
 .two{
@@ -120,8 +119,7 @@ h2{
 
 footer{
     background-color:rgb(217, 152, 32) ;
-    height: 50px;
-    margin-top:10px;
+    height: 62px;
 }
 
 .three{
@@ -134,4 +132,13 @@ footer{
 .Special{
      margin-left: 0px;
     margin-right: 0px;
+}
+
+.Huge{
+font-size: 80px;
+margin-bottom: 10px;
+}
+
+h3{
+font-size: 26.5px;
 }
