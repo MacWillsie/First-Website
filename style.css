@@ -46,6 +46,7 @@ article{
 aside{
     flex: 1;
     background-color: rgb(217, 152, 32);
+    border-radius: 10px;
 }
 
 main {
