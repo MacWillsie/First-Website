@@ -15,10 +15,11 @@ nav li {
 }
 
 nav a {
-  font-size: 2rem;
+  font-size: 32px;
   text-transform: uppercase;
   text-decoration: none;
   color: rgb(244, 195, 20);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover,
@@ -28,6 +29,7 @@ nav a:focus {
   background-color: rgb(220, 119, 119);
   border-radius: 5px;
   padding: 7px;
+
 }
 
 body {
@@ -64,17 +66,5 @@ h4{
 
 .Topic{
 font-style:italic;
-}
-
-.Smaller{
-    font-size: 30px;
-}
-
-.Smaller :hover{
-    font-size:33px;
-}
-
-.Larger :hover{
-    font-size: 38px;
 }
 
