@@ -47,6 +47,7 @@ aside{
     flex: 1;
     background-color: rgb(217, 152, 32);
     border-radius: 10px;
+    height: 577px;
 }
 
 main {
@@ -78,3 +79,14 @@ font-style:italic;
     }
 }
 
+.Feature{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-left: 75px;
+    margin-right: 75px;
+}
