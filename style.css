@@ -105,8 +105,33 @@ width: 17%;
 .textt{
     font-size: 19.5px;
     text-indent: 33px;
+    text-align: center; 
 }
 
 .two{
+    display:flex;
     justify-content: center;
+}
+
+h2{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+footer{
+    background-color:rgb(217, 152, 32) ;
+    height: 50px;
+    margin-top:10px;
+}
+
+.three{
+    font-size: 19.5px;
+    text-indent: 33px;
+    display:flex;
+    max-width: 600px;  
+}
+
+.Special{
+     margin-left: 0px;
+    margin-right: 0px;
 }
