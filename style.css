@@ -6,6 +6,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   color: rgb(228, 188, 93);
+  height:45px;
 }
 
 nav li {
@@ -26,10 +27,11 @@ nav a:focus {
   font-size: 38px;
   background-color: rgb(220, 119, 119);
   border-radius: 5px;
+  padding: 7px;
 }
 
 body {
-  width: 95%;
+  width: 97.5%;
   min-width: 800px;
   margin: 0 auto;
 }
@@ -49,7 +51,7 @@ main {
     gap: 10px;
 }
 
-h1 {
+h1{
     text-align: center;
     font-size: 50px;
 }
@@ -59,3 +61,20 @@ h2,
 h4{
     text-align: center;
 }
+
+.Topic{
+font-style:italic;
+}
+
+.Smaller{
+    font-size: 30px;
+}
+
+.Smaller :hover{
+    font-size:33px;
+}
+
+.Larger :hover{
+    font-size: 38px;
+}
+
