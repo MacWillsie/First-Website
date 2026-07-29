@@ -29,7 +29,7 @@ nav a:focus {
   background-color: rgb(220, 119, 119);
   border-radius: 5px;
   padding: 7px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+
 }
 
 body {
@@ -47,7 +47,6 @@ aside{
     flex: 1;
     justify-content: center;
    background-color: rgb(168, 35, 35);
-   
 }
 
 main {
@@ -92,7 +91,6 @@ p{
 }
 
 .second{
-    text-align:center;
   position: fixed;
   top: 50%;
   transform: translateY(-44%); /* center vertically */
@@ -102,26 +100,6 @@ background-color: rgb(217, 152, 32);
 height:500px;
 margin-right:2%;
 width: 17%;
-
-h3{
-    font-size: 24px;
-    margin-top: 19px;
-}
-
-}
-
-.profilee{
-background-color: blanchedalmond;
-
-nav a{
-color: rgb(0, 0, 0);
-}
-
-nav a:hover,
-nav a:focus {
-  background-color: rgb(146, 135, 118);
-}
-
 }
 
 .textt{
@@ -163,20 +141,4 @@ margin-bottom: 10px;
 
 h3{
 font-size: 26.5px;
-
-}
-
-.me{
-    justify-content: center;
-    display: flex;
-text-shadow: 2px 2px 5px rgb(244, 195, 20);
-
-img{
-    border: 3px solid #000000; /* width, style, and color */
-  border-radius: 10px;
-    height:70px;
-    margin-top: 25px;
-    margin-right: 2%;
-}
-
 }
