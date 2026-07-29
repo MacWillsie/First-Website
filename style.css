@@ -169,7 +169,7 @@ font-size: 26.5px;
 .me{
     justify-content: center;
     display: flex;
-text-shadow: 2px 2px 5px rgb(244, 195, 20);
+
 
 img{
     border: 3px solid #000000; /* width, style, and color */
@@ -183,7 +183,7 @@ img{
 
 .Today{
     margin-left: 8%;
-
+margin-bottom: 25px;
 }
 
 h5{
@@ -195,5 +195,19 @@ h5{
 }
 
 .review{
-    max-width: 150px;
+    margin-left: 29%;
+    width: 360px;
+    margin-top: 0px;
+}
+
+.specific{
+text-shadow: 2px 2px 5px rgb(244, 195, 20);
+}
+
+.info{
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 3px solid #000000; /* width, style, and color */
+    padding: 10px;
+  border-radius: 10px;
 }
