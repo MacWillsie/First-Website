@@ -180,3 +180,20 @@ img{
 }
 
 }
+
+.Today{
+    margin-left: 8%;
+
+}
+
+h5{
+    font-size: 16px;
+}
+
+.together{
+    display: flex;
+}
+
+.review{
+    max-width: 150px;
+}
