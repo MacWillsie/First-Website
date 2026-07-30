@@ -187,6 +187,13 @@ img{
 .Today{
     margin-left: 10%;
 margin-bottom: 25px;
+width: 10vw;
+margin-right: 5%;
+
+img{
+    width: 100%;
+}
+
 }
 
 h5{
@@ -290,7 +297,13 @@ padding: 4px;
 .Filler{
     font-size: 15px;
     margin-top: 0px;
-    margin-left: 9.5%;
+    display: flex;
+    justify-content: center;
+
+img{
+    height: 70px;
+}
+
 }
 
 .love{
@@ -301,4 +314,31 @@ width: 125px;
 }
 .love2{
 width: 125px;
+}
+
+.Line{
+    width: 100%;
+    background-color: rgb(132, 3, 3);
+    height: 10px;
+    font-size: 0px;
+}
+
+.Queen{
+    text-align: center;
+}
+
+.Lamar{
+    text-align: center;
+}
+
+.Taylor{
+    text-align: center;
+}
+
+.Beatles{
+    text-align: center;
+}
+
+.Billie{
+    text-align: center;
 }
