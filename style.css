@@ -212,6 +212,9 @@ h5{
 
 .specific{
 text-shadow: 2px 2px 5px rgb(244, 195, 20);
+font-size: 80px;
+text-decoration: underline;
+margin-top: 0%;
 }
 
 .info{
@@ -224,14 +227,13 @@ margin-right:12px
 }
 
 button{
-     padding: 12px 24px;
-    font-size: 16px;
+     padding: 6px 12px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.25s ease;
     border-radius: 15px;
-    font-size: 35px;
-    border: 5px solid #000000; /* width, style, and color */
+    font-size: 20px;
+    border: 3px solid #000000; /* width, style, and color */
 background-color: rgb(132, 3, 3);
 margin-top: 20px;
 scale: 1;
@@ -240,10 +242,11 @@ font-family: "Roboto Condensed", sans-serif;
 
 .uhh{
     border-radius: 15px;
-    font-size: 35px;
-    border: 5px solid #000000; /* width, style, and color */
+    font-size: 20px;
+    border: 3px solid #000000; /* width, style, and color */
 background-color: rgb(217, 152, 32);
-margin-left: 35px;
+margin-left: 10px;
+margin-right: 0%;
 }
 
 button:hover,
@@ -262,8 +265,9 @@ button:focus{
 }
 
 .buttons{
-    justify-content: center;
-    margin-left: 33.5%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
 }
 
 .onee{
@@ -299,9 +303,10 @@ padding: 4px;
     margin-top: 0px;
     display: flex;
     justify-content: center;
-
+    margin-left: 1%;
 img{
-    height: 70px;
+    height: 120px;
+    border: 5px solid rgb(217, 152, 32); /* width, style, and color */
 }
 
 }
@@ -341,4 +346,9 @@ width: 125px;
 
 .Billie{
     text-align: center;
+}
+
+.Stats{
+    font-size: 50px;
+    text-decoration: underline;
 }
