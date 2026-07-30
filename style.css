@@ -129,6 +129,8 @@ nav a:focus {
 .textt{
     font-size: 19.5px;
     text-indent: 33px;
+    text-align: center;
+    text-indent: 0%;
 }
 
 .two{
