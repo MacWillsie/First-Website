@@ -299,10 +299,9 @@ padding: 4px;
     font-size: 25px;
     justify-content: center;
     align-items: center;
-    text-decoration: underline;
     margin-bottom: 10px;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .group{
