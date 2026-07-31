@@ -295,10 +295,23 @@ padding: 4px;
 }
 
 .name{
+    display: flex;
     font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
     margin-bottom: 10px;
-    text-align: center;
-    font-size: 35px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.group{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 .Filler{
